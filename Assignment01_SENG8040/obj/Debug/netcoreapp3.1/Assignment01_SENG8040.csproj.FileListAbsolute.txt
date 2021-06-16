@@ -1,0 +1,13 @@
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\bin\Debug\netcoreapp3.1\Assignment01_SENG8040.exe
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\bin\Debug\netcoreapp3.1\Assignment01_SENG8040.deps.json
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\bin\Debug\netcoreapp3.1\Assignment01_SENG8040.runtimeconfig.json
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\bin\Debug\netcoreapp3.1\Assignment01_SENG8040.runtimeconfig.dev.json
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\bin\Debug\netcoreapp3.1\Assignment01_SENG8040.dll
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\bin\Debug\netcoreapp3.1\Assignment01_SENG8040.pdb
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\obj\Debug\netcoreapp3.1\Assignment01_SENG8040.csprojAssemblyReference.cache
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\obj\Debug\netcoreapp3.1\Assignment01_SENG8040.AssemblyInfoInputs.cache
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\obj\Debug\netcoreapp3.1\Assignment01_SENG8040.AssemblyInfo.cs
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\obj\Debug\netcoreapp3.1\Assignment01_SENG8040.csproj.CoreCompileInputs.cache
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\obj\Debug\netcoreapp3.1\Assignment01_SENG8040.dll
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\obj\Debug\netcoreapp3.1\Assignment01_SENG8040.pdb
+C:\Users\chaud\source\repos\Assignment01_SENG8040\Assignment01_SENG8040\obj\Debug\netcoreapp3.1\Assignment01_SENG8040.genruntimeconfig.cache
