@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ujU4CNv0x0KxQyPFL1+0BdnYdleM+wl8ZUdJQiw5nkyUD+3611gzabBPtE/ot79UO55NaAWCneLn/LaXIZeiBA==",
+  "dgSpecHash": "uT2wvAAoBUUNaHFUMnJM1WGQ8jFVxDg4p9Lq1PyP5/i+2AviozTHB2jnnJn/ezhracEKahRddvnEhcUeGpoAkQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\chaud\\source\\repos\\Assignment01_SENG8040\\Assignment01_SENG8040\\Assignment01_SENG8040.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\chaud\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\chaud\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\chaud\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512"
+  ],
   "logs": []
 }

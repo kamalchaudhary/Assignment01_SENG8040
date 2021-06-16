@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment01_SENG8040", "Assignment01_SENG8040\Assignment01_SENG8040.csproj", "{7B42D5B6-27BD-44D4-9F8A-E22903458E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment01_SENG8040", "Assignment01_SENG8040\Assignment01_SENG8040.csproj", "{7B42D5B6-27BD-44D4-9F8A-E22903458E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleTest", "RectangleTest\RectangleTest.csproj", "{0FC9A870-12A4-4DFF-9A63-D6E55098B42A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7B42D5B6-27BD-44D4-9F8A-E22903458E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B42D5B6-27BD-44D4-9F8A-E22903458E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B42D5B6-27BD-44D4-9F8A-E22903458E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC9A870-12A4-4DFF-9A63-D6E55098B42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC9A870-12A4-4DFF-9A63-D6E55098B42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC9A870-12A4-4DFF-9A63-D6E55098B42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC9A870-12A4-4DFF-9A63-D6E55098B42A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

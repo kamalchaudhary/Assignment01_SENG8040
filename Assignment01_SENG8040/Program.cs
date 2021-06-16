@@ -10,6 +10,7 @@ namespace Assignment01_SENG8040
             string selection = "";
             while (exitloop == false)
             {
+                Console.WriteLine();
                 Console.WriteLine("1 = Get Rectangle Length");
                 Console.WriteLine("2 = Change Rectangle Length");
                 Console.WriteLine("3 = Get Rectangle Width");
@@ -18,12 +19,15 @@ namespace Assignment01_SENG8040
                 Console.WriteLine("6 = Get Rectangle Area");
                 Console.WriteLine("7 = Exit");
 
-                Console.WriteLine("Please select the number by to perform Operation : ");
+                Console.WriteLine();
+                Console.WriteLine("Please select the number to perform Operation : ");
                 selection = Console.ReadLine();
 
                 if (selection != "1" && selection != "2" && selection != "3" && selection != "4" && selection != "5" && selection != "6" && selection != "7")
                 {
-                    Console.WriteLine("Please select valid number");
+                    Console.WriteLine();
+                    Console.WriteLine("Please select valid number from the list to perform operation : ");
+                    Console.WriteLine();
                 }
                 else
                 {
