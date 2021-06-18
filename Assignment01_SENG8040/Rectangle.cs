@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Assignment01_SENG8040
 {
-    class Rectangle
+   public class Rectangle
     {
         private int length;
         private int width;
@@ -30,11 +30,12 @@ namespace Assignment01_SENG8040
             this.length = length;
             return this.length;
         }
+
         public int GetWidth()
         {
             return width;
         }
-        public int SetWidht(int width)
+        public int SetWidth(int width)
         {
             this.width = width;
             return this.width;

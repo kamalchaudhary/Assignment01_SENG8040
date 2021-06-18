@@ -4,12 +4,64 @@ namespace Assignment01_SENG8040
 {
     class Program
     {
-        public static int menuselection()
+        public static void Main(string[] args)
         {
-            bool exitloop = false;
-            string selection = "";
-            while (exitloop == false)
+            Rectangle r = new Rectangle();
+            int selection = 0;
+            
+           
+            while (selection != 7)
             {
+                int result ;
+                selection = Menuselection();
+                switch (selection)
+                {
+                    case 1:
+                        Console.WriteLine($"Rectangle length is : {r.GetLength()}");
+                        break;
+                    case 2:
+                        result = ValidateUserInput("Rectangle Length");
+                        r.SetLength(result);
+                        break;
+                    case 3:
+                        Console.WriteLine($"Rectangle width is : {r.GetWidth()}");
+                        break;
+                    case 4:
+                        result = ValidateUserInput("Rectangle Width");
+                        r.SetWidth(result);
+                        break;
+                    case 5:
+                        int Length, Width;
+                        Length = ValidateUserInput("Rectangel Length");
+                        Width = ValidateUserInput("Rectangle Width");
+                        Console.WriteLine($"Your Length for calculation is : {Length}");
+                        Console.WriteLine($"Your Width for calculation is : {Width}");
+                        r.SetLength(Length);
+                        r.SetWidth(Width);
+                        Console.WriteLine($"The Perimeter of rectangle with (length : {r.GetLength()} and width : {r.GetWidth()}) is : {r.GetPerimeter()}");
+                        break;
+                    case 6:
+                        Length = ValidateUserInput("Rectangel Length");
+                        Width = ValidateUserInput("Rectangle Width");
+                        Console.WriteLine($"Your Length for calculation is : {Length}");
+                        Console.WriteLine($"Your Width for calculation is : {Width}");
+                        r.SetLength(Length);
+                        r.SetWidth(Width);
+                        Console.WriteLine($"The Area of rectangle with (length : {r.GetLength()} and width : {r.GetWidth()}) is : {r.GetArea()}");
+                        break;
+                    default:
+                        break;
+
+                }
+            }
+        }
+
+        public static int Menuselection()
+        {
+            // bool exitloop = false;
+            int selection;
+            //while (exitloop == false)
+            //{
                 Console.WriteLine();
                 Console.WriteLine("1 = Get Rectangle Length");
                 Console.WriteLine("2 = Change Rectangle Length");
@@ -21,21 +73,18 @@ namespace Assignment01_SENG8040
 
                 Console.WriteLine();
                 Console.WriteLine("Please select the number to perform Operation : ");
-                selection = Console.ReadLine();
+                selection = Convert.ToInt32(Console.ReadLine());
 
-                if (selection != "1" && selection != "2" && selection != "3" && selection != "4" && selection != "5" && selection != "6" && selection != "7")
+                if (selection > 7 || selection < 0)
                 {
                     Console.WriteLine();
                     Console.WriteLine("Please select valid number from the list to perform operation : ");
                     Console.WriteLine();
                 }
-                else
-                {
-                    exitloop = true;
-                }
-            }
+                
+            //}
             Console.WriteLine();
-            return int.Parse(selection);
+            return selection;
         }
 
         public static int ValidateUserInput(string chosenNumber)
@@ -66,54 +115,5 @@ namespace Assignment01_SENG8040
             return aNumber;
         }
 
-
-
-        static void Main(string[] args)
-        {
-            Rectangle r = new Rectangle();
-            int selection;
-            selection = menuselection();
-            if (selection == 5 || selection == 6)
-            {
-                int Length, Width;
-                Length = ValidateUserInput("Rectangel Length");
-                Width = ValidateUserInput("Rectangle Width");
-                Console.WriteLine($"Your Length for calculation is : {Length}");
-                Console.WriteLine($"Your Width for calculation is : {Width}");
-                r.SetLength(Length);
-                r.SetWidht(Width);
-            }
-            while (selection != 7)
-            {
-                int result;
-                switch (selection)
-                {
-                    case 1:
-                        Console.WriteLine($"Rectangle length is : {r.GetLength()}");
-                        break;
-                    case 2:
-                        result = ValidateUserInput("Rectangle Length");
-                        r.SetLength(result);
-                        break;
-                    case 3:
-                        Console.WriteLine($"Rectangle widht is : {r.GetWidth()}");
-                        break;
-                    case 4:
-                        result = ValidateUserInput("Rectangle Width");
-                        r.SetWidht(result);
-                        break;
-                    case 5:
-                        Console.WriteLine($"The Perimeter of rectangle with (length : {r.GetLength()} and width : {r.GetWidth()}) is : {r.GetPerimeter()}");
-                        break;
-                    case 6:
-                        Console.WriteLine($"The Area of rectangle with (length : {r.GetLength()} and width : {r.GetWidth()}) is : {r.GetArea()}");
-                        break;
-                    default:
-                        break;
-
-                }
-                selection = menuselection();
-            }
-        }
     }
 }
